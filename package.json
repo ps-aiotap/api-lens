@@ -1,0 +1,13 @@
+{
+  "name": "healthmug-api-lens",
+  "version": "1.0.0",
+  "bin": {
+    "apilens": "./cli-tool.js"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "yargs": "^17.7.2"
+  }
+}

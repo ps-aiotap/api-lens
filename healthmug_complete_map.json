@@ -1,0 +1,2921 @@
+{
+  "pages": [
+    {
+      "name": "Home",
+      "url": "https://www.healthmug.com/",
+      "title": "Online Pharmacy In India | Buy Medicines at Discount | Healthmug"
+    },
+    {
+      "name": "Search",
+      "url": "https://www.healthmug.com/search?keywords=medicine",
+      "title": "medicine | Healthmug"
+    }
+  ],
+  "navigation": [],
+  "apis": [
+    {
+      "url": "https://www.healthmug.com/",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 108,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.241Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/css/snackbar-roK_X0.css",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 7,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.243Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/react-lib-xbO6BLM.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 91,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.335Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/redirection-4r53j2l.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 93,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.337Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/sentry-xkEn7fy.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 94,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.338Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/desktop-index-rNK0HzV.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 121,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.369Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/img/loader-l5kmzV.gif",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 126,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.372Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/index-URvgXL.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 124,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.373Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/snackbar-X6_1C9n.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 125,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.374Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/progressive-image-g_a0jq-.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 46,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.413Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/signalR-4fYY8CB.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 46,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.414Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/reducers-X14OJh5.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 46,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.415Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/user-outline-vKXK2eP.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 61,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.444Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/caret-jiF7dk4.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 62,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.445Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/css/desktop-index-tcLq5g.css",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 58,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.445Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/css/swiper-8p8JuY.css",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 61,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.445Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/bell-lfZmr-R.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 62,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.446Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/plus-brzUK0q.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 63,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.446Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/heart-line-O2lEFeE.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 63,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.446Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/authentication-actions-e7xQlrp.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 68,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.446Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/discount-bg-4qJHUzT.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 88,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.459Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/pencil-hN0nTYq.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 88,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.459Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/home-screen-E8KMWQS.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 53,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.553Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/arrow-next-Q4VJV2f.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 53,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.554Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/loader-V9Cn-qF.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 53,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.554Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/scroll-top-button-b8AiaA9.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 53,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.555Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/home-actions-7dEjD_x.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 52,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.555Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/ticker-slider-pGmg_ZN.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 36,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.561Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/free-mode-e6M9c_V.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 37,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.562Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/slider-scroll-qeUzlET.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 38,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.562Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/pagination-ghE7u6q.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 38,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.572Z"
+    },
+    {
+      "url": "https://rudderstack.healthmug.com/v1/track",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 158,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.706Z"
+    },
+    {
+      "url": "https://api.healthmug.com/account/getcurrentpincode",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 249,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.776Z"
+    },
+    {
+      "url": "https://api.healthmug.com/account/getuserdetails",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 255,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.777Z"
+    },
+    {
+      "url": "https://api.healthmug.com/home/get-header-data",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 231,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.812Z"
+    },
+    {
+      "url": "https://api.healthmug.com/home/getappversion",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 264,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.844Z"
+    },
+    {
+      "url": "https://api.healthmug.com/home/get-home-page-data",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 266,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.852Z"
+    },
+    {
+      "url": "https://api.healthmug.com/checkout/get-courier-service",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 85,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.873Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/group-banner-scroll-wiViCCZ.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 48,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.892Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/slider-QkZh8O7.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 49,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.901Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/card-layout-content-yj83FMi.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 50,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.901Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/card-layout-title-BADSrMh.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 51,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.902Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/product-list-scroll-EV27Cv-.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 54,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.903Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/card-layout-t0G2xzT.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 55,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.904Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/html-component-Dn1L9EU.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 55,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.904Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/group-banner-311Jlqp.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 56,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.905Z"
+    },
+    {
+      "url": "https://rudderstack.healthmug.com/v1/track",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 56,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.920Z"
+    },
+    {
+      "url": "https://api.healthmug.com/account/setquicksellers",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 80,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:33.979Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3980-bb.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 96,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.070Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3970-br.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 99,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.073Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3981-de.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 116,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.095Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3973-ve.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 123,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.097Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3971-ca.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 125,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.277Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3967-kq.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 127,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.278Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3974-du.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 248,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.306Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3979-gf.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 100,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.307Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3972-se.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 250,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.307Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3975-jt.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 254,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.309Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3969-xf.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 257,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.310Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3976-vx.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 250,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.310Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3977-ip.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 255,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.310Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3978-uo.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 255,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.311Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/7217-nx.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 206,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.311Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/7214-dd.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 206,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.311Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3968-sz.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 259,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.312Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/5563-hs.gif",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 122,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.312Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/2729-al.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 192,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.323Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/2725-gp.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 192,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.323Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/2733-qm.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 192,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.324Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3983-mo.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 258,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.324Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/6603-ew.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 187,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.325Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/6792-mp.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 187,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.328Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/4130-mc.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 188,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.329Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/7213-tn.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 199,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.329Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/2727-yv.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 188,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.331Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/7212-km.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 199,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.332Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/7216-dv.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 199,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.333Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/4103-xt.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 188,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.334Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/2736-yt.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 188,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.338Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/7209-kr.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 199,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.339Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/2750-ls.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 188,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.340Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/2732-as.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 188,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.340Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/2747-os.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 188,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.341Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/2745-gf.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 188,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.342Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/2748-vu.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 188,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.342Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/2752-te.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 188,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.343Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/2744-vi.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 188,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.343Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/4298-ch.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 115,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.344Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/7211-qy.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 204,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.346Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/7206-dl.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 205,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.346Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/7220-rp.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 206,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.346Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/7210-cw.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 201,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.347Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3965-rz.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 195,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.347Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3966-wo.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 195,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.348Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/7219-rq.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 208,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.348Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/7218-jm.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 209,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.352Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3503-xb.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 167,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.353Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/7208-dc.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 203,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.357Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/6103-mv.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 274,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.359Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/7215-lw.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 200,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.362Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3985-kh.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 255,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.363Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/7207-lb.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 199,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.364Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/1424-yb.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 47,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.365Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/4085-gz.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 129,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.366Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3735-dt.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 129,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.368Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/6125-xl.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 128,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.372Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/4089-jl.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 129,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.374Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3738-ig.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 29,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.377Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/4008-yf.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 26,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.377Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/6788-ae.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 127,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.378Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3757-fp.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 130,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.379Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/6124-ts.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 128,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.380Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3741-in.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 129,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.381Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/6126-cx.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 129,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.396Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/261978-8-30.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 37,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.397Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/237624-1-30.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 42,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.397Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/6123-nz.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 129,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.398Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/6127-cq.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 129,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.402Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3739-qv.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 25,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.403Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/356826-1-30.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 44,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.403Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/384088-1-30.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 46,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.409Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3740-cr.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 26,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.410Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/278171-9-30.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 58,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.411Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/131254-18-30.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 58,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.411Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/6635-ha.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 128,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.412Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/60313-1-30.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 58,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.412Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/4072-wf.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 129,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.412Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3736-ud.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 28,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.413Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/237624-1-300.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 47,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.425Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/278171-9-300.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 51,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.427Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/356826-1-300.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 36,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.442Z"
+    },
+    {
+      "url": "https://api.healthmug.com/home/get-home-page-data",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 257,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.444Z"
+    },
+    {
+      "url": "https://api.healthmug.com/cart/loadcart",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 258,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.444Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/261978-8-300.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 50,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.445Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/131254-18-300.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 58,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.446Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/384088-1-300.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 58,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.446Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/60313-1-300.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 40,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.451Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3742-ls.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 122,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.458Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/4187-xm.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 292,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.459Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/5766-hz.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 30,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.460Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3747-yy.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 275,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.461Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/5149-vk.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 50,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.464Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/6292-ur.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 52,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.468Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/5569-oi.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 43,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.470Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3094-bh.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 37,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.471Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/6291-gq.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 60,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.473Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3096-eh.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 61,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.474Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/6288-hc.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 61,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.475Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3743-iu.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 274,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.483Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/6289-sr.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 60,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.485Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3746-vc.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 120,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.488Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/6290-is.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 60,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.490Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3750-kk.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 102,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.493Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3744-hb.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 274,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.495Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3745-ex.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 275,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.500Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/3748-dq.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 275,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.504Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/asset/6122-eo.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 128,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:34.669Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/login-modal-Gw8jErp.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 61,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:35.320Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/password-visibility-icon-NhZ1OFh.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 62,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:35.320Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/timer-d8pO2Cw.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 63,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:35.321Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/login-block-AlBrVRn.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 63,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:35.322Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/input-lfzy-Be.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 63,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:35.322Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/address-pincode-selection-WyfyeEI.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 63,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:35.323Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/location-permission-Wk_Q-Y6.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 64,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:35.323Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/gps-9Th10qE.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 64,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:35.323Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/modal-SLiYpZX.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 65,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:35.324Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/playstore-MZ7XiiA.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 64,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:35.324Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/desktop-footer-98AIh9w.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 64,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:35.325Z"
+    },
+    {
+      "url": "https://connect.facebook.net/signals/config/268261577572879?v=2.9.210&r=stable&domain=www.healthmug.com&hme=3441e08561898daa17527063c9241425bb59bed6563ec6648fc630e7b08b31f3&ex_m=82%2C139%2C122%2C16%2C115%2C57%2C38%2C116%2C63%2C56%2C127%2C71%2C11%2C81%2C24%2C110%2C101%2C61%2C64%2C109%2C126%2C6%2C2%2C3%2C5%2C89%2C4%2C72%2C80%2C129%2C130%2C202%2C151%2C51%2C207%2C204%2C205%2C43%2C164%2C23%2C60%2C211%2C210%2C153%2C26%2C50%2C7%2C53%2C76%2C77%2C78%2C83%2C105%2C25%2C22%2C108%2C104%2C103%2C123%2C62%2C125%2C48%2C124%2C39%2C106%2C49%2C98%2C10%2C35%2C192%2C194%2C161%2C19%2C20%2C21%2C13%2C14%2C34%2C31%2C32%2C67%2C73%2C75%2C87%2C114%2C117%2C36%2C88%2C17%2C15%2C92%2C58%2C29%2C119%2C118%2C120%2C111%2C18%2C28%2C47%2C86%2C27%2C174%2C147%2C85%2C1%2C107%2C66%2C96%2C42%2C37%2C94%2C95%2C100%2C46%2C12%2C102%2C93%2C54%2C41%2C44%2C0%2C79%2C128%2C99%2C9%2C97%2C251%2C190%2C137%2C177%2C170%2C8%2C45%2C74%2C52%2C121%2C55%2C91%2C70%2C69%2C40%2C112%2C68%2C65%2C59%2C90%2C84%2C33%2C113%2C30%2C131",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 23,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:35.346Z"
+    },
+    {
+      "url": "https://www.facebook.com/tr/?id=268261577572879&ev=PageView&dl=https%3A%2F%2Fwww.healthmug.com&rl=&if=false&ts=1750841915341&sw=1280&sh=720&v=2.9.210&r=stable&ec=0&o=4124&fbp=fb.1.1750841915339.668957248251262933&pm=1&hrl=a9429d&ler=empty&cdl=API_unavailable&it=1750841915298&coo=false&cs_cc=1&cas=7697990740250994%2C25591451637136257%2C7442633229190973%2C6528295707268136%2C6954938287882703%2C4399982003447606%2C3704665699633432%2C3936199593074047&exp=k0&rqm=GET",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 16,
+      "isEmpty": true,
+      "timestamp": "2025-06-25T08:58:35.363Z"
+    },
+    {
+      "url": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=268261577572879&ev=PageView&dl=https%3A%2F%2Fwww.healthmug.com&rl=&if=false&ts=1750841915341&sw=1280&sh=720&v=2.9.210&r=stable&ec=0&o=4124&fbp=fb.1.1750841915339.668957248251262933&pm=1&hrl=a9429d&ler=empty&cdl=API_unavailable&it=1750841915298&coo=false&cs_cc=1&cas=7697990740250994%2C25591451637136257%2C7442633229190973%2C6528295707268136%2C6954938287882703%2C4399982003447606%2C3704665699633432%2C3936199593074047&exp=k0&rqm=FGET",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 378,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:35.724Z"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-TQ7KZW4YR3&gtm=45je56n1h1v875355804za200&_p=1750841913232&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104573694~104684204~104684207~104718208~104784387~104784389&cid=777637146.1750841916&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_s=1&dl=https%3A%2F%2Fwww.healthmug.com%2F&sid=1750841915&sct=1&seg=0&dt=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&en=page_view&_fv=1&_nsi=1&_ss=2&_ee=1&tfd=2507",
+      "method": "POST",
+      "statusCode": 204,
+      "responseTime": 198,
+      "isEmpty": true,
+      "timestamp": "2025-06-25T08:58:35.820Z"
+    },
+    {
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/352691122/?random=1750841915890&cv=11&fst=1750841915890&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9188493012za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684204~104684207~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&hn=www.googleadservices.com&frm=0&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dgtag.config&rfmt=3&fmt=4",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 129,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:36.056Z"
+    },
+    {
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/352691122/?random=1750841915932&cv=11&fst=1750841915932&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9188493012za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684204~104684207~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&hn=www.googleadservices.com&frm=0&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dscreen_view%3Bpage_type%3Dhome%3Bpage_id%3D40&rfmt=3&fmt=4",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 112,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:36.057Z"
+    },
+    {
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/352691122/?random=1750841915925&cv=11&fst=1750841915925&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9188493012za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684204~104684207~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&hn=www.googleadservices.com&frm=0&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dpage_view&rfmt=3&fmt=4",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 122,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:36.058Z"
+    },
+    {
+      "url": "https://www.google.com/ccm/collect?tid=AW-352691122&en=page_view&dl=https%3A%2F%2Fwww.healthmug.com%2F&scrsrc=www.googletagmanager.com&frm=0&rnd=1216596601.1750841916&dt=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&auid=1624472869.1750841916&navt=n&npa=0&gtm=45be56n1h1v9188493012za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684204~104684207~104718208~104768828~104784387~104784389&tft=1750841915894&tfd=2789&apve=1&apvf=sb",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 132,
+      "isEmpty": true,
+      "timestamp": "2025-06-25T08:58:36.058Z"
+    },
+    {
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/878171885/?random=1750841915981&cv=11&fst=1750841915981&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9118283598za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684208~104684211~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&hn=www.googleadservices.com&frm=0&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dgtag.config&rfmt=3&fmt=4",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 104,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:36.140Z"
+    },
+    {
+      "url": "https://www.googletagmanager.com/static/service_worker/56n0/sw_iframe.html?origin=https%3A%2F%2Fwww.healthmug.com",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 150,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:36.151Z"
+    },
+    {
+      "url": "https://www.google.com/pagead/1p-user-list/352691122/?random=1750841915890&cv=11&fst=1750838400000&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9188493012za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684204~104684207~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&hn=www.googleadservices.com&frm=0&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dgtag.config&rfmt=3&fmt=3&is_vtc=1&cid=CAQSGwDZpuyzNup7l05pGOXr4O0e5DMILUjDqPx3xw&random=2331588533&rmt_tld=0&ipr=y",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 105,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:36.171Z"
+    },
+    {
+      "url": "https://www.google.com/pagead/1p-user-list/352691122/?random=1750841915932&cv=11&fst=1750838400000&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9188493012za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684204~104684207~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&hn=www.googleadservices.com&frm=0&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dscreen_view%3Bpage_type%3Dhome%3Bpage_id%3D40&rfmt=3&fmt=3&is_vtc=1&cid=CAQSGwDZpuyzfN8l-pL3vWIq4HTLNSQUWWRS-iIhvw&random=754139372&rmt_tld=0&ipr=y",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 105,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:36.171Z"
+    },
+    {
+      "url": "https://www.google.com/pagead/1p-user-list/352691122/?random=1750841915925&cv=11&fst=1750838400000&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9188493012za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684204~104684207~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&hn=www.googleadservices.com&frm=0&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dpage_view&rfmt=3&fmt=3&is_vtc=1&cid=CAQSGwDZpuyzlMMnJvsWEbgCyrbqMwlMN6JwowVA7g&random=429314150&rmt_tld=0&ipr=y",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 108,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:36.174Z"
+    },
+    {
+      "url": "https://www.google.co.in/pagead/1p-user-list/352691122/?random=1750841915925&cv=11&fst=1750838400000&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9188493012za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684204~104684207~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&hn=www.googleadservices.com&frm=0&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dpage_view&rfmt=3&fmt=3&is_vtc=1&cid=CAQSGwDZpuyzlMMnJvsWEbgCyrbqMwlMN6JwowVA7g&random=429314150&rmt_tld=1&ipr=y",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 108,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:36.175Z"
+    },
+    {
+      "url": "https://www.google.co.in/pagead/1p-user-list/352691122/?random=1750841915890&cv=11&fst=1750838400000&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9188493012za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684204~104684207~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&hn=www.googleadservices.com&frm=0&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dgtag.config&rfmt=3&fmt=3&is_vtc=1&cid=CAQSGwDZpuyzNup7l05pGOXr4O0e5DMILUjDqPx3xw&random=2331588533&rmt_tld=1&ipr=y",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 110,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:36.175Z"
+    },
+    {
+      "url": "https://www.google.co.in/pagead/1p-user-list/352691122/?random=1750841915932&cv=11&fst=1750838400000&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9188493012za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684204~104684207~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&hn=www.googleadservices.com&frm=0&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dscreen_view%3Bpage_type%3Dhome%3Bpage_id%3D40&rfmt=3&fmt=3&is_vtc=1&cid=CAQSGwDZpuyzfN8l-pL3vWIq4HTLNSQUWWRS-iIhvw&random=754139372&rmt_tld=1&ipr=y",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 111,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:36.175Z"
+    },
+    {
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/878171885/?random=1750841916034&cv=11&fst=1750841916034&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9118283598za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684208~104684211~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&hn=www.googleadservices.com&frm=0&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dscreen_view%3Bpage_type%3Dhome%3Bpage_id%3D40&rfmt=3&fmt=4",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 121,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:36.176Z"
+    },
+    {
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/878171885/?random=1750841916023&cv=11&fst=1750841916023&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9118283598za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684208~104684211~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&hn=www.googleadservices.com&frm=0&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dpage_view&rfmt=3&fmt=4",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 131,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:36.176Z"
+    },
+    {
+      "url": "https://td.doubleclick.net/td/rul/352691122?random=1750841915925&cv=11&fst=1750841915925&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9188493012za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684204~104684207~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&hn=www.googleadservices.com&frm=0&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dpage_view",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 190,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:36.194Z"
+    },
+    {
+      "url": "https://td.doubleclick.net/td/rul/352691122?random=1750841915932&cv=11&fst=1750841915932&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9188493012za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684204~104684207~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&hn=www.googleadservices.com&frm=0&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dscreen_view%3Bpage_type%3Dhome%3Bpage_id%3D40",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 189,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:36.194Z"
+    },
+    {
+      "url": "https://td.doubleclick.net/td/rul/352691122?random=1750841915890&cv=11&fst=1750841915890&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9188493012za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684204~104684207~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&hn=www.googleadservices.com&frm=0&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dgtag.config",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 205,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:36.196Z"
+    },
+    {
+      "url": "https://td.doubleclick.net/td/rul/878171885?random=1750841915981&cv=11&fst=1750841915981&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9118283598za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684208~104684211~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&hn=www.googleadservices.com&frm=0&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dgtag.config",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 117,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:36.203Z"
+    },
+    {
+      "url": "https://td.doubleclick.net/td/rul/878171885?random=1750841916023&cv=11&fst=1750841916023&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9118283598za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684208~104684211~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&hn=www.googleadservices.com&frm=0&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dpage_view",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 123,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:36.204Z"
+    },
+    {
+      "url": "https://td.doubleclick.net/td/rul/878171885?random=1750841916034&cv=11&fst=1750841916034&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9118283598za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684208~104684211~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&hn=www.googleadservices.com&frm=0&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dscreen_view%3Bpage_type%3Dhome%3Bpage_id%3D40",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 144,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:36.211Z"
+    },
+    {
+      "url": "https://www.google.co.in/pagead/1p-user-list/878171885/?random=1750841915981&cv=11&fst=1750838400000&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9118283598za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684208~104684211~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&hn=www.googleadservices.com&frm=0&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dgtag.config&rfmt=3&fmt=3&is_vtc=1&cid=CAQSGwDZpuyzwgmr85sVb6XPIL83Bl-wXhgzSyUAzQ&random=3661202256&rmt_tld=1&ipr=y",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 85,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:36.219Z"
+    },
+    {
+      "url": "https://www.google.com/pagead/1p-user-list/878171885/?random=1750841915981&cv=11&fst=1750838400000&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9118283598za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684208~104684211~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&hn=www.googleadservices.com&frm=0&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dgtag.config&rfmt=3&fmt=3&is_vtc=1&cid=CAQSGwDZpuyzwgmr85sVb6XPIL83Bl-wXhgzSyUAzQ&random=3661202256&rmt_tld=0&ipr=y",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 87,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:36.219Z"
+    },
+    {
+      "url": "https://www.google.com/pagead/1p-user-list/878171885/?random=1750841916034&cv=11&fst=1750838400000&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9118283598za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684208~104684211~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&hn=www.googleadservices.com&frm=0&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dscreen_view%3Bpage_type%3Dhome%3Bpage_id%3D40&rfmt=3&fmt=3&is_vtc=1&cid=CAQSKQDZpuyz7nJAXASLWxQ-AHnL5lsnDATSOvDfoViRB8zJ0IwbgxuMKvra&random=3972219380&rmt_tld=0&ipr=y",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 103,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:36.274Z"
+    },
+    {
+      "url": "https://www.google.com/pagead/1p-user-list/878171885/?random=1750841916023&cv=11&fst=1750838400000&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9118283598za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684208~104684211~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&hn=www.googleadservices.com&frm=0&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dpage_view&rfmt=3&fmt=3&is_vtc=1&cid=CAQSKQDZpuyzX0Jewm2exWErH9U36wiWkn-ysBZRe7XqEf_nBILgk3BNZX5K&random=4135529671&rmt_tld=0&ipr=y",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 105,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:36.275Z"
+    },
+    {
+      "url": "https://www.google.co.in/pagead/1p-user-list/878171885/?random=1750841916034&cv=11&fst=1750838400000&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9118283598za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684208~104684211~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&hn=www.googleadservices.com&frm=0&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dscreen_view%3Bpage_type%3Dhome%3Bpage_id%3D40&rfmt=3&fmt=3&is_vtc=1&cid=CAQSKQDZpuyz7nJAXASLWxQ-AHnL5lsnDATSOvDfoViRB8zJ0IwbgxuMKvra&random=3972219380&rmt_tld=1&ipr=y",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 116,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:36.288Z"
+    },
+    {
+      "url": "https://www.google.co.in/pagead/1p-user-list/878171885/?random=1750841916023&cv=11&fst=1750838400000&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9118283598za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684208~104684211~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&hn=www.googleadservices.com&frm=0&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dpage_view&rfmt=3&fmt=3&is_vtc=1&cid=CAQSKQDZpuyzX0Jewm2exWErH9U36wiWkn-ysBZRe7XqEf_nBILgk3BNZX5K&random=4135529671&rmt_tld=1&ipr=y",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 118,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:36.289Z"
+    },
+    {
+      "url": "https://twa.netcoresmartech.com/dispatch_webpushact?user_key=ADGMOT35CHFLVDHBJNIG50K969LEM017H7BCM2HQOL1QOPQV6LD0&customer_key=&uuid=086c799b-17c8-4d7a-99b8-1ee1b17aa2d6&siteid=be31ce047352c443f67c4bbe0f7d4044&browser=chrome&sid=1750841915365&visit=new&pts=0&sts=2&url=https%3A%2F%2Fwww.healthmug.com%2F&tx=1750841915365&npv=1&title=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&usertimings=1750841918311&web_activity=11",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 40,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:38.352Z"
+    },
+    {
+      "url": "https://api.healthmug.com/account/is-registered-user",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 55,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:38.798Z"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-TQ7KZW4YR3&gtm=45je56n1h1v875355804za200&_p=1750841913232&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104573694~104684204~104684207~104718208~104784387~104784389&cid=777637146.1750841916&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=2&dt=Home&sid=1750841915&sct=1&seg=0&dl=https%3A%2F%2Fwww.healthmug.com%2F&en=screen_view&_ee=1&ep.page_type=home&epn.page_id=40&_et=4&tfd=7514",
+      "method": "POST",
+      "statusCode": 204,
+      "responseTime": 137,
+      "isEmpty": true,
+      "timestamp": "2025-06-25T08:58:40.759Z"
+    },
+    {
+      "url": "https://api.healthmug.com/account/signinuser",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 118,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:40.979Z"
+    },
+    {
+      "url": "https://www.facebook.com/tr/?id=268261577572879&ev=Login&dl=https%3A%2F%2Fwww.healthmug.com&rl=&if=false&ts=1750841920955&sw=1280&sh=720&v=2.9.210&r=stable&ec=1&o=4124&fbp=fb.1.1750841915339.668957248251262933&pm=1&hrl=39699b&ler=empty&cdl=API_unavailable&it=1750841915298&coo=false&cs_cc=1&cas=6954938287882703%2C4399982003447606%2C3704665699633432%2C3936199593074047&exp=k0&rqm=GET",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 44,
+      "isEmpty": true,
+      "timestamp": "2025-06-25T08:58:41.009Z"
+    },
+    {
+      "url": "https://www.google.com/ccm/collect?tid=AW-352691122&en=user_id_update&dl=https%3A%2F%2Fwww.healthmug.com%2F&scrsrc=www.googletagmanager.com&frm=0&rnd=1216596601.1750841916&dt=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&auid=1624472869.1750841916&navt=n&npa=0&ga_uid=G-TQ7KZW4YR3.1322100613&gtm=45be56n1h1v9188493012za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684204~104684207~104718208~104768828~104784387~104784389&tft=1750841920936&tfd=7830&apve=1&apvf=sb",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 78,
+      "isEmpty": true,
+      "timestamp": "2025-06-25T08:58:41.025Z"
+    },
+    {
+      "url": "https://api.healthmug.com/account/setquicksellers",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 85,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:41.031Z"
+    },
+    {
+      "url": "https://api.healthmug.com/consultation/get-chat-startup-data",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 112,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:41.093Z"
+    },
+    {
+      "url": "https://api.healthmug.com/account/getaddress",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 126,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:41.096Z"
+    },
+    {
+      "url": "https://rudderstack.healthmug.com/v1/track",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 146,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:41.097Z"
+    },
+    {
+      "url": "https://api.healthmug.com/account/save-technology",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 128,
+      "isEmpty": true,
+      "timestamp": "2025-06-25T08:58:41.097Z"
+    },
+    {
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/352691122/?random=1750841920938&cv=11&fst=1750841920938&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9188493012za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684204~104684207~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&hn=www.googleadservices.com&frm=0&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&userId=1322100613&ga_uid=G-TQ7KZW4YR3.1322100613&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dlogin%3Bmethod%3DEmail&rfmt=3&fmt=4",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 148,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:41.098Z"
+    },
+    {
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/878171885/?random=1750841920945&cv=11&fst=1750841920945&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9118283598za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684208~104684211~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&hn=www.googleadservices.com&frm=0&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&userId=1322100613&ga_uid=G-TQ7KZW4YR3.1322100613&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dlogin%3Bmethod%3DEmail&rfmt=3&fmt=4",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 142,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:41.098Z"
+    },
+    {
+      "url": "https://td.doubleclick.net/td/rul/352691122?random=1750841920938&cv=11&fst=1750841920938&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9188493012za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684204~104684207~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&hn=www.googleadservices.com&frm=0&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&userId=1322100613&ga_uid=G-TQ7KZW4YR3.1322100613&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dlogin%3Bmethod%3DEmail",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 178,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:41.158Z"
+    },
+    {
+      "url": "https://td.doubleclick.net/td/rul/878171885?random=1750841920945&cv=11&fst=1750841920945&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9118283598za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684208~104684211~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&hn=www.googleadservices.com&frm=0&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&userId=1322100613&ga_uid=G-TQ7KZW4YR3.1322100613&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dlogin%3Bmethod%3DEmail",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 173,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:41.160Z"
+    },
+    {
+      "url": "https://api.healthmug.com/home/get-home-page-data",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 180,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:41.162Z"
+    },
+    {
+      "url": "https://rudderstack.healthmug.com/v1/identify",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 214,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:41.165Z"
+    },
+    {
+      "url": "https://rudderstack.healthmug.com/v1/identify",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 218,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:41.166Z"
+    },
+    {
+      "url": "https://api.healthmug.com/cart/loadcart",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 133,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:41.169Z"
+    },
+    {
+      "url": "https://www.google.com/pagead/1p-user-list/352691122/?random=1750841920938&cv=11&fst=1750838400000&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9188493012za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684204~104684207~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&hn=www.googleadservices.com&frm=0&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&userId=1322100613&ga_uid=G-TQ7KZW4YR3.1322100613&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dlogin%3Bmethod%3DEmail&rfmt=3&fmt=3&is_vtc=1&cid=CAQSKQDZpuyzGBKDN6wOZ1eYVhxThFwGIsyumW4AudHDp_Ii7VQbOjTvTxYs&random=3720022951&rmt_tld=0&ipr=y",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 94,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:41.193Z"
+    },
+    {
+      "url": "https://www.google.com/pagead/1p-user-list/878171885/?random=1750841920945&cv=11&fst=1750838400000&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9118283598za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684208~104684211~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&hn=www.googleadservices.com&frm=0&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&userId=1322100613&ga_uid=G-TQ7KZW4YR3.1322100613&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dlogin%3Bmethod%3DEmail&rfmt=3&fmt=3&is_vtc=1&cid=CAQSKQDZpuyz16-3UIpF7XiOnrENUP6wBX9A_b0-mw6sh-pS5SUIDkEqVqmg&random=2268287268&rmt_tld=0&ipr=y",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 93,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:41.194Z"
+    },
+    {
+      "url": "https://www.google.co.in/pagead/1p-user-list/878171885/?random=1750841920945&cv=11&fst=1750838400000&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9118283598za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684208~104684211~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&hn=www.googleadservices.com&frm=0&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&userId=1322100613&ga_uid=G-TQ7KZW4YR3.1322100613&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dlogin%3Bmethod%3DEmail&rfmt=3&fmt=3&is_vtc=1&cid=CAQSKQDZpuyz16-3UIpF7XiOnrENUP6wBX9A_b0-mw6sh-pS5SUIDkEqVqmg&random=2268287268&rmt_tld=1&ipr=y",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 97,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:41.197Z"
+    },
+    {
+      "url": "https://www.google.co.in/pagead/1p-user-list/352691122/?random=1750841920938&cv=11&fst=1750838400000&bg=ffffff&guid=ON&async=1&gtm=45be56n1h1v9188493012za200zb875355804&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684204~104684207~104718208~104768828~104784387~104784389&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.healthmug.com%2F&hn=www.googleadservices.com&frm=0&tiba=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&userId=1322100613&ga_uid=G-TQ7KZW4YR3.1322100613&npa=0&pscdl=noapi&auid=1624472869.1750841916&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&fledge=1&data=event%3Dlogin%3Bmethod%3DEmail&rfmt=3&fmt=3&is_vtc=1&cid=CAQSKQDZpuyzGBKDN6wOZ1eYVhxThFwGIsyumW4AudHDp_Ii7VQbOjTvTxYs&random=3720022951&rmt_tld=1&ipr=y",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 98,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:41.197Z"
+    },
+    {
+      "url": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=268261577572879&ev=Login&dl=https%3A%2F%2Fwww.healthmug.com&rl=&if=false&ts=1750841920955&sw=1280&sh=720&v=2.9.210&r=stable&ec=1&o=4124&fbp=fb.1.1750841915339.668957248251262933&pm=1&hrl=39699b&ler=empty&cdl=API_unavailable&it=1750841915298&coo=false&cs_cc=1&cas=6954938287882703%2C4399982003447606%2C3704665699633432%2C3936199593074047&exp=k0&rqm=FGET",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 257,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:58:41.222Z"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-TQ7KZW4YR3&gtm=45je56n1h1v875355804za200&_p=1750841913232&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104573694~104684204~104684207~104718208~104784387~104784389&cid=777637146.1750841916&ul=en-us&sr=1280x720&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.23&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAACAQ&_s=3&sid=1750841915&sct=1&seg=0&dl=https%3A%2F%2Fwww.healthmug.com%2F&dt=Online%20Pharmacy%20In%20India%20%7C%20Buy%20Medicines%20at%20Discount%20%7C%20Healthmug&uid=1322100613&en=login&_ee=1&ep.method=Email&_et=5315&tfd=12832",
+      "method": "POST",
+      "statusCode": 204,
+      "responseTime": 81,
+      "isEmpty": true,
+      "timestamp": "2025-06-25T08:58:46.021Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/main-menu-items-1PjoaLS.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 139,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:03.267Z"
+    },
+    {
+      "url": "https://www.healthmug.com/",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 140,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:15.773Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/css/snackbar-roK_X0.css",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 9,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:15.779Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/img/loader-l5kmzV.gif",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 21,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:15.781Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/redirection-4r53j2l.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 20,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:15.782Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/sentry-xkEn7fy.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 22,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:15.785Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/snackbar-X6_1C9n.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 22,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:15.786Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/index-URvgXL.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 23,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:15.787Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/desktop-index-rNK0HzV.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 24,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:15.791Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/react-lib-xbO6BLM.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 42,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:15.799Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/reducers-X14OJh5.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 17,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:15.800Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/signalR-4fYY8CB.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 29,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:15.809Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/progressive-image-g_a0jq-.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 32,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:15.814Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/user-outline-vKXK2eP.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 34,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:15.824Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/caret-jiF7dk4.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 34,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:15.824Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/pencil-hN0nTYq.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 35,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:15.825Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/css/desktop-index-tcLq5g.css",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 38,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:15.826Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/css/swiper-8p8JuY.css",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 41,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:15.826Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/discount-bg-4qJHUzT.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 43,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:15.826Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/authentication-actions-e7xQlrp.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 43,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:15.827Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/plus-brzUK0q.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 44,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:15.844Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/bell-lfZmr-R.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 44,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:15.845Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/heart-line-O2lEFeE.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 45,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:15.845Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/home-screen-E8KMWQS.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 64,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:15.951Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/scroll-top-button-b8AiaA9.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 72,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:15.964Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/arrow-next-Q4VJV2f.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 72,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:15.965Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/loader-V9Cn-qF.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 73,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:15.965Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/home-actions-7dEjD_x.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 79,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:15.966Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/ticker-slider-pGmg_ZN.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 26,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:15.986Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/slider-scroll-qeUzlET.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 43,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.007Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/free-mode-e6M9c_V.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 51,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.009Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/group-banner-scroll-wiViCCZ.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 40,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.010Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/slider-QkZh8O7.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 42,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.011Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/card-layout-content-yj83FMi.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 44,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.013Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/html-component-Dn1L9EU.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 33,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.014Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/card-layout-title-BADSrMh.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 47,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.015Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/product-list-scroll-EV27Cv-.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 36,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.018Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/group-banner-311Jlqp.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 28,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.019Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/card-layout-t0G2xzT.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 48,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.021Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/pagination-ghE7u6q.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 62,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.022Z"
+    },
+    {
+      "url": "https://api.healthmug.com/account/getuserdetails",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 115,
+      "isEmpty": true,
+      "timestamp": "2025-06-25T08:59:16.214Z"
+    },
+    {
+      "url": "https://api.healthmug.com/account/setquicksellers",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 117,
+      "isEmpty": true,
+      "timestamp": "2025-06-25T08:59:16.215Z"
+    },
+    {
+      "url": "https://api.healthmug.com/account/save-technology",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 212,
+      "isEmpty": true,
+      "timestamp": "2025-06-25T08:59:16.217Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/css/snackbar-roK_X0.css",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 0,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.238Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/react-lib-xbO6BLM.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 0,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.242Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/redirection-4r53j2l.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 0,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.245Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/sentry-xkEn7fy.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 0,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.245Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/desktop-index-rNK0HzV.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 0,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.246Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/snackbar-X6_1C9n.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 0,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.246Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/index-URvgXL.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 0,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.250Z"
+    },
+    {
+      "url": "https://www.healthmug.com/search?keywords=medicine",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 50,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.251Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/reducers-X14OJh5.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 0,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.252Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/signalR-4fYY8CB.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 0,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.252Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/progressive-image-g_a0jq-.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 5,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.268Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/user-outline-vKXK2eP.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 0,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.269Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/caret-jiF7dk4.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 0,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.269Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/authentication-actions-e7xQlrp.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 0,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.270Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/pencil-hN0nTYq.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 0,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.271Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/discount-bg-4qJHUzT.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 0,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.271Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/plus-brzUK0q.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 0,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.272Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/bell-lfZmr-R.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 0,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.272Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/heart-line-O2lEFeE.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 0,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.272Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/css/desktop-index-tcLq5g.css",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 0,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.273Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/css/swiper-8p8JuY.css",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 0,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.273Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/img/loader-l5kmzV.gif",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 35,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.286Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/arrow-next-Q4VJV2f.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 0,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.351Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/scroll-top-button-b8AiaA9.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 0,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.352Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/ticker-slider-pGmg_ZN.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 0,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.382Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/pagination-ghE7u6q.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 0,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.385Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/slider-scroll-qeUzlET.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 3,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.385Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/free-mode-e6M9c_V.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 0,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.385Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/modal-SLiYpZX.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 35,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.386Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/input-lfzy-Be.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 34,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.386Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/home-actions-7dEjD_x.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 0,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.389Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/products-list-screen-JMsOfXA.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 76,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.405Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/select-8bh0tFi.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 85,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.428Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/select-from-available-9crBAEA.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 95,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.428Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/star-50qWanL.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 88,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.429Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/no-search-O7jtUO_.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 95,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.430Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/tick-TSBqsC9.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 89,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.431Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/wishlist-button-ZO5_Gg5.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 100,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.431Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/product-box-UMQHSwq.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 102,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.431Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/heart-filled-lRM-wBC.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 102,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.432Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/star-ratings-_FtreFR.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 103,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.439Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/search-params-3NC0zeq.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 101,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.439Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/dot-epDBvSb.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 104,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.460Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/checkbox-59x34_E.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 102,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.460Z"
+    },
+    {
+      "url": "https://www.healthmug.com/assets/js/products-list-actions-CFyHMEB.js",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 109,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.461Z"
+    },
+    {
+      "url": "https://api.healthmug.com/account/getuserdetails",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 91,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.480Z"
+    },
+    {
+      "url": "https://api.healthmug.com/account/setquicksellers",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 93,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.481Z"
+    },
+    {
+      "url": "https://api.healthmug.com/home/getappversion",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 81,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.481Z"
+    },
+    {
+      "url": "https://api.healthmug.com/home/get-header-data",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 170,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.574Z"
+    },
+    {
+      "url": "https://api.healthmug.com/account/save-technology",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 180,
+      "isEmpty": true,
+      "timestamp": "2025-06-25T08:59:16.574Z"
+    },
+    {
+      "url": "https://api.healthmug.com/productlist/insertsearchtext",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 102,
+      "isEmpty": true,
+      "timestamp": "2025-06-25T08:59:16.574Z"
+    },
+    {
+      "url": "https://api.healthmug.com/cart/loadcart",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 105,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.584Z"
+    },
+    {
+      "url": "https://rudderstack.healthmug.com/v1/track",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 34,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.595Z"
+    },
+    {
+      "url": "https://rudderstack.healthmug.com/v1/identify",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 45,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.606Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/healthmug/assured-gray.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 157,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:16.624Z"
+    },
+    {
+      "url": "https://api.healthmug.com/productlist/getproductlist",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 562,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:17.141Z"
+    },
+    {
+      "url": "https://rudderstack.healthmug.com/v1/track",
+      "method": "POST",
+      "statusCode": 200,
+      "responseTime": 47,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:17.203Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/127839-2-30.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 54,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:17.921Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/42742-1-30.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 55,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:17.922Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/127839-2-400.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 56,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:17.934Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/127838-1-30.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 80,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:17.948Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/227186-1-30.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 74,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:17.948Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/259011-2-30.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 79,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:17.949Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/258918-1-30.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 109,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:17.980Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/258104-1-30.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 109,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:17.981Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/184340-1-30.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 112,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:17.981Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/258919-1-30.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 134,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.008Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/7090-1-30.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 139,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.029Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/227188-1-30.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 140,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.030Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/136930-1-30.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 148,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.030Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/153575-1-30.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 151,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.031Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/134099-1-30.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 162,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.032Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/153577-1-30.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 174,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.060Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/122832-1-30.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 177,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.061Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/260860-1-30.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 178,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.062Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/42742-1-400.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 81,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.062Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/286025-1-400.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 82,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.063Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/260860-1-400.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 178,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.064Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/258111-1-30.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 180,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.064Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/259011-2-400.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 100,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.064Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/286025-1-30.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 107,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.065Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/258104-1-400.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 69,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.065Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/184340-1-400.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 113,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.066Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/7090-1-400.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 140,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.066Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/227188-1-400.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 140,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.068Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/258917-1-30.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 193,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.068Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/127838-1-400.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 105,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.084Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/258917-1-400.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 161,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.085Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/153575-1-400.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 161,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.086Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/153577-1-400.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 176,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.087Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/258111-1-400.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 184,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.088Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/258919-1-400.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 136,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.089Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/136930-1-400.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 150,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.089Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/134099-1-400.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 162,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.089Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/122832-1-400.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 178,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.090Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/227186-1-400.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 77,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.090Z"
+    },
+    {
+      "url": "https://static.oxinis.com/healthmug/image/product/258918-1-400.webp",
+      "method": "GET",
+      "statusCode": 200,
+      "responseTime": 110,
+      "isEmpty": false,
+      "timestamp": "2025-06-25T08:59:18.091Z"
+    }
+  ]
+}
