@@ -1,8 +1,13 @@
 {
   "name": "healthmug-api-lens",
-  "version": "1.0.0",
+  "version": "2.0.0",
+  "type": "module",
   "bin": {
     "apilens": "./cli-tool.js"
+  },
+  "scripts": {
+    "start": "node healthmug-daemon-grouped.js",
+    "dev": "node healthmug-daemon-grouped.js --interval 2 --runs 3"
   },
   "dependencies": {
     "playwright": "^1.40.0",

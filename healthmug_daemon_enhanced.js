@@ -13,7 +13,11 @@ class HealthmugDaemonEnhanced {
             apilens_api_failures: 0,
             apilens_api_empty_responses: 0,
             apilens_last_run_duration_seconds: 0,
-            apilens_last_run_timestamp_seconds: 0
+            apilens_last_run_timestamp_seconds: 0,
+            apilens_comparison_new_failures: 0,
+            apilens_comparison_recovered_apis: 0,
+            apilens_comparison_latency_change_ms: 0,
+            apilens_comparison_empty_response_change_percent: 0
         };
         this.snapshotManager = new SnapshotManager();
         this.comparisonEngine = new ComparisonEngine();
@@ -172,7 +176,8 @@ class HealthmugDaemonEnhanced {
 
         // Export snapshot and compare if enabled
         if (!options.skipExport) {
-            await this.exportAndCompare(apiData, options);
+            const comparison = await this.exportAndCompare(apiData, options);
+            this.updateComparisonMetrics(comparison);
         }
 
         return scanResults;
@@ -191,17 +196,38 @@ class HealthmugDaemonEnhanced {
             }
 
             // Compare with previous run if enabled
+            let comparison = null;
             if (!options.skipComparison) {
                 const previousSnapshot = options.baseline 
                     ? this.snapshotManager.getSnapshotByRunId(options.baseline)
                     : this.snapshotManager.getPreviousSnapshot();
                 
-                const comparison = this.comparisonEngine.compare(snapshot, previousSnapshot);
+                comparison = this.comparisonEngine.compare(snapshot, previousSnapshot);
                 this.comparisonEngine.displayComparison(comparison);
             }
+            
+            return comparison;
         } catch (error) {
             console.log(`⚠️ Export/comparison error: ${error.message}`);
+            return null;
         }
+    }
+
+    updateComparisonMetrics(comparison) {
+        if (!comparison || !comparison.details) {
+            // Reset comparison metrics if no comparison available
+            this.metrics.apilens_comparison_new_failures = 0;
+            this.metrics.apilens_comparison_recovered_apis = 0;
+            this.metrics.apilens_comparison_latency_change_ms = 0;
+            this.metrics.apilens_comparison_empty_response_change_percent = 0;
+            return;
+        }
+
+        // Update comparison metrics
+        this.metrics.apilens_comparison_new_failures = comparison.details.failures?.newFailures?.length || 0;
+        this.metrics.apilens_comparison_recovered_apis = comparison.details.failures?.recovered?.length || 0;
+        this.metrics.apilens_comparison_latency_change_ms = comparison.details.latency?.change || 0;
+        this.metrics.apilens_comparison_empty_response_change_percent = comparison.details.emptyResponses?.change || 0;
     }
 
     async start(interval, maxRuns = null, options = {}) {
