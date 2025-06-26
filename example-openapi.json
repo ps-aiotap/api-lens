@@ -1,0 +1,47 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Healthmug API",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/api/products": {
+      "get": {
+        "summary": "Get all products"
+      }
+    },
+    "/api/products/{id}": {
+      "get": {
+        "summary": "Get product by ID"
+      }
+    },
+    "/api/cart": {
+      "get": {
+        "summary": "Get cart contents"
+      },
+      "post": {
+        "summary": "Add to cart"
+      }
+    },
+    "/api/cart/{itemId}": {
+      "delete": {
+        "summary": "Remove from cart"
+      }
+    },
+    "/api/search": {
+      "get": {
+        "summary": "Search products"
+      }
+    },
+    "/api/user/profile": {
+      "get": {
+        "summary": "Get user profile"
+      }
+    },
+    "/api/user/{userId}/orders": {
+      "get": {
+        "summary": "Get user orders"
+      }
+    }
+  }
+}
