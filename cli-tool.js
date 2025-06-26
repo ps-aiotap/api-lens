@@ -1,13 +1,16 @@
 #!/usr/bin/env node
 
-const yargs = require('yargs');
-const SnapshotManager = require('./snapshot-manager');
-const ComparisonEngine = require('./comparison-engine');
+import yargs from 'yargs';
+import { hideBin } from 'yargs/helpers';
+import SnapshotManager from './snapshot-manager.js';
+import ComparisonEngine from './comparison-engine.js';
+import MultiSiteRunner from './multi-site-runner.js';
 
 const snapshotManager = new SnapshotManager();
 const comparisonEngine = new ComparisonEngine();
+const multiSiteRunner = new MultiSiteRunner();
 
-yargs
+yargs(hideBin(process.argv))
     .command('list', 'List all snapshots', {}, () => {
         const snapshots = snapshotManager.listSnapshots();
         console.log('📸 Available snapshots:');
@@ -87,6 +90,37 @@ yargs
         console.log(`   Failures: ${snapshot.summary.failures}`);
         console.log(`   Empty Responses: ${snapshot.summary.emptyResponses}`);
         console.log(`   Avg Latency: ${snapshot.summary.avgLatency.toFixed(0)}ms`);
+    })
+    .command('test', 'Run API tests', {
+        site: {
+            describe: 'Run tests for specific client/site',
+            type: 'string',
+            alias: 's'
+        }
+    }, async (argv) => {
+        if (!argv.site) {
+            console.log('🔧 Available sites:');
+            const sites = multiSiteRunner.listAvailableSites();
+            sites.forEach(site => console.log(`  - ${site}`));
+            console.log('\nUsage: apilens test --site <site-name>');
+            return;
+        }
+        
+        try {
+            const result = await multiSiteRunner.runSiteTests(argv.site);
+            
+            console.log('\n📊 Run Summary:');
+            console.log(`  Site: ${result.site}`);
+            console.log(`  Run ID: ${result.runId}`);
+            console.log(`  Total APIs: ${result.results.length}`);
+            console.log(`  Successful: ${result.results.filter(r => r.success).length}`);
+            console.log(`  Failed: ${result.results.filter(r => !r.success).length}`);
+            console.log(`  Empty responses: ${result.results.filter(r => r.isEmpty).length}`);
+            console.log(`  Log file: ${result.logFile}`);
+        } catch (error) {
+            console.error('❌ Error:', error.message);
+            process.exit(1);
+        }
     })
     .demandCommand(1, 'You need at least one command')
     .help()

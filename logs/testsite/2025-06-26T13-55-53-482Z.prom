@@ -1,0 +1,43 @@
+# HELP python_gc_objects_collected_total Objects collected during gc
+# TYPE python_gc_objects_collected_total counter
+python_gc_objects_collected_total{generation="0"} 216.0
+python_gc_objects_collected_total{generation="1"} 113.0
+python_gc_objects_collected_total{generation="2"} 0.0
+# HELP python_gc_objects_uncollectable_total Uncollectable objects found during GC
+# TYPE python_gc_objects_uncollectable_total counter
+python_gc_objects_uncollectable_total{generation="0"} 0.0
+python_gc_objects_uncollectable_total{generation="1"} 0.0
+python_gc_objects_uncollectable_total{generation="2"} 0.0
+# HELP python_gc_collections_total Number of times this generation was collected
+# TYPE python_gc_collections_total counter
+python_gc_collections_total{generation="0"} 32.0
+python_gc_collections_total{generation="1"} 2.0
+python_gc_collections_total{generation="2"} 0.0
+# HELP python_info Python platform information
+# TYPE python_info gauge
+python_info{implementation="CPython",major="3",minor="12",patchlevel="0",version="3.12.0"} 1.0
+# HELP apilens_calls_total Total API calls
+# TYPE apilens_calls_total gauge
+apilens_calls_total{endpoint="/get",site="testsite"} 1.0
+apilens_calls_total{endpoint="/status/200",site="testsite"} 1.0
+apilens_calls_total{endpoint="/delay/1",site="testsite"} 1.0
+# HELP apilens_fails_total Failed API calls
+# TYPE apilens_fails_total gauge
+apilens_fails_total{endpoint="/get",site="testsite"} 0.0
+apilens_fails_total{endpoint="/status/200",site="testsite"} 0.0
+apilens_fails_total{endpoint="/delay/1",site="testsite"} 0.0
+# HELP apilens_health_score API health score 0-100
+# TYPE apilens_health_score gauge
+apilens_health_score{endpoint="/get",site="testsite"} 90.0
+apilens_health_score{endpoint="/status/200",site="testsite"} 60.0
+apilens_health_score{endpoint="/delay/1",site="testsite"} 90.0
+# HELP apilens_empty_responses Empty API responses
+# TYPE apilens_empty_responses gauge
+apilens_empty_responses{endpoint="/get",site="testsite"} 0.0
+apilens_empty_responses{endpoint="/status/200",site="testsite"} 1.0
+apilens_empty_responses{endpoint="/delay/1",site="testsite"} 0.0
+# HELP apilens_avg_latency_ms Average latency in ms
+# TYPE apilens_avg_latency_ms gauge
+apilens_avg_latency_ms{endpoint="/get",site="testsite"} 1307.0
+apilens_avg_latency_ms{endpoint="/status/200",site="testsite"} 1492.0
+apilens_avg_latency_ms{endpoint="/delay/1",site="testsite"} 2889.0

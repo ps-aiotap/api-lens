@@ -181,4 +181,4 @@ class ComparisonEngine {
     }
 }
 
-module.exports = ComparisonEngine;
+export default ComparisonEngine;

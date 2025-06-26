@@ -1,5 +1,5 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
 class SnapshotManager {
     constructor(snapshotsDir = './snapshots') {
@@ -102,4 +102,4 @@ class SnapshotManager {
     }
 }
 
-module.exports = SnapshotManager;
+export default SnapshotManager;

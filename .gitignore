@@ -12,4 +12,13 @@ patterns/
 !example-openapi.json
 .DS_Store
 Thumbs.db
+
+# Python
+__pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
+analysis_summary.json
+api_stability_summary.json
+stability_report_*.json

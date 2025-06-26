@@ -11,3 +11,13 @@ scrape_configs:
     static_configs:
       - targets: ['host.docker.internal:9877']
     scrape_interval: 30s
+  
+  - job_name: 'stability-metrics'
+    static_configs:
+      - targets: ['host.docker.internal:9878']
+    scrape_interval: 60s
+  
+  - job_name: 'multi-site-metrics'
+    static_configs:
+      - targets: ['host.docker.internal:9879']
+    scrape_interval: 30s
