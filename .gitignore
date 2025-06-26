@@ -9,6 +9,7 @@ patterns/
 !package.json
 !*dashboard*.json
 !docker-compose.yml
+!example-openapi.json
 .DS_Store
 Thumbs.db
 *.pyc

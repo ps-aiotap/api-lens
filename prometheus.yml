@@ -6,3 +6,8 @@ scrape_configs:
     static_configs:
       - targets: ['host.docker.internal:3000']
     scrape_interval: 30s
+  
+  - job_name: 'python-analytics'
+    static_configs:
+      - targets: ['host.docker.internal:9877']
+    scrape_interval: 30s

@@ -132,9 +132,63 @@ const grouper = new EndpointGrouper({
 node healthmug-daemon-grouped.js --openapi swagger.json
 ```
 
+## 🐍 Python Analytics Integration
+
+### Setup
+```bash
+# Install Python dependencies
+cd python
+pip install -r requirements.txt
+```
+
+### Usage
+```bash
+# Run comparison analysis
+python run_analysis.py analyze
+
+# Start Prometheus metrics server (port 9877)
+python run_analysis.py server
+
+# Generate sample data for testing
+cd python
+python sample_data.py
+```
+
+### Python Modules
+- **snapshot_loader.py**: Load and group API snapshots
+- **comparison_engine.py**: Generate insights between runs
+- **prometheus_server.py**: Expose metrics on port 9877
+- **analyzer.py**: Main orchestration module
+
+### Example Output
+```
+🧠 API LENS PYTHON ANALYSIS
+============================================================
+
+📈 SUMMARY:
+   Current APIs: 7
+   Previous APIs: 6
+   Current Failures: 2
+   Previous Failures: 1
+
+💡 INSIGHTS:
+   • 1 APIs failed today that passed yesterday
+   • Empty responses up 14.3% since last scan
+   • Latency ↑ 33% in /api/search*
+
+📊 GROUP ANALYSIS:
+   ❌ /api/products/*: 2 APIs, 1 failures (latency ↑17%)
+   ✅ /api/cart/*: 2 APIs, 0 failures
+   ✅ /api/search*: 1 APIs, 0 failures (latency ↑33%)
+   ✅ /api/user/*: 1 APIs, 0 failures
+   ❌ /api/orders/*: 1 APIs, 1 failures
+```
+
 ## 🚀 Extensibility
 
 - **GraphQL support**: Add custom grouping for GraphQL operations
 - **Config files**: Define grouping rules via JSON/YAML
 - **Custom metrics**: Extend Prometheus exporter
 - **Report formats**: Add XML, PDF, or other formats
+- **Python integration**: Analytics and comparison in Python
+- **Dual language**: Node.js for testing, Python for analytics
