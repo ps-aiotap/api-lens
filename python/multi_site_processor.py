@@ -6,6 +6,8 @@ import os
 from datetime import datetime
 from prometheus_client import Gauge, start_http_server, write_to_textfile
 from typing import Dict, List, Any
+from database_manager import DatabaseManager
+from alert_manager import AlertManager
 
 class MultiSiteProcessor:
     def __init__(self):
@@ -15,6 +17,10 @@ class MultiSiteProcessor:
         self.health_score = Gauge('apilens_health_score', 'API health score 0-100', ['site', 'endpoint'])
         self.empty_responses = Gauge('apilens_empty_responses', 'Empty API responses', ['site', 'endpoint'])
         self.avg_latency = Gauge('apilens_avg_latency_ms', 'Average latency in ms', ['site', 'endpoint'])
+        
+        # Database and alerting
+        self.db = DatabaseManager()
+        self.alert_mgr = AlertManager()
     
     def process_log_file(self, site: str, log_file: str):
         """Process a single log file and update metrics"""
@@ -79,6 +85,19 @@ class MultiSiteProcessor:
         metrics_file = log_file.replace('.json', '.prom')
         from prometheus_client import REGISTRY
         write_to_textfile(metrics_file, REGISTRY)
+        
+        # Save to database
+        try:
+            self.db.save_test_run(site, data)
+            print(f"Saved test run to database for {site}")
+        except Exception as e:
+            print(f"Failed to save to database: {e}")
+        
+        # Check for alerts
+        try:
+            self.alert_mgr.check_health_alerts(site, 70)
+        except Exception as e:
+            print(f"Failed to check alerts: {e}")
         
         print(f"Processed {len(endpoint_stats)} endpoints for {site}")
         return endpoint_stats

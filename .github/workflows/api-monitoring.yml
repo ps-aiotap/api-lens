@@ -1,0 +1,125 @@
+name: API Monitoring CI/CD
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'  # Run every 2 hours
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:  # Manual trigger
+
+env:
+  NODE_VERSION: '18'
+  PYTHON_VERSION: '3.9'
+
+jobs:
+  api-tests:
+    runs-on: ubuntu-latest
+    
+    services:
+      postgres:
+        image: postgres:13
+        env:
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: apilens
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          - 5432:5432
+    
+    strategy:
+      matrix:
+        site: [testsite, healthmug, example]
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ env.NODE_VERSION }}
+        cache: 'npm'
+    
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+    
+    - name: Install Node dependencies
+      run: npm install
+    
+    - name: Install Python dependencies
+      run: |
+        cd python
+        pip install -r requirements.txt
+        pip install psycopg2-binary
+    
+    - name: Setup Database
+      env:
+        DB_HOST: localhost
+        DB_NAME: apilens
+        DB_USER: postgres
+        DB_PASSWORD: postgres
+        DB_PORT: 5432
+      run: |
+        psql -h localhost -U postgres -d apilens -f database/schema.sql
+    
+    - name: Run API Tests
+      env:
+        DB_HOST: localhost
+        DB_NAME: apilens
+        DB_USER: postgres
+        DB_PASSWORD: postgres
+        DB_PORT: 5432
+      run: |
+        node cli-tool.js test --site ${{ matrix.site }}
+    
+    - name: Check Health Alerts
+      env:
+        DB_HOST: localhost
+        DB_NAME: apilens
+        DB_USER: postgres
+        DB_PASSWORD: postgres
+        DB_PORT: 5432
+      run: |
+        cd python
+        python -c "
+        from alert_manager import AlertManager
+        alert_mgr = AlertManager()
+        alert_mgr.check_health_alerts('${{ matrix.site }}', 70)
+        "
+    
+    - name: Upload Test Results
+      uses: actions/upload-artifact@v3
+      if: always()
+      with:
+        name: test-results-${{ matrix.site }}
+        path: |
+          logs/${{ matrix.site }}/
+          *.html
+    
+    - name: Notify on Failure
+      if: failure()
+      uses: 8398a7/action-slack@v3
+      with:
+        status: failure
+        text: 'API monitoring failed for ${{ matrix.site }}'
+      env:
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+
+  deploy-dashboard:
+    needs: api-tests
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Deploy to Production
+      run: |
+        echo "Deploying dashboard updates..."
+        # Add deployment steps here
