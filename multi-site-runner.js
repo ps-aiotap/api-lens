@@ -26,6 +26,8 @@ class MultiSiteRunner {
         console.log(`🚀 Running tests for site: ${site}`);
         
         const config = await this.loadSiteConfig(site);
+        
+        
         const results = [];
         const runId = new Date().toISOString().replace(/[:.]/g, '-');
         

@@ -1,4 +1,5 @@
 node_modules/
+logs/
 .env
 *.log
 reports/
@@ -22,3 +23,33 @@ __pycache__/
 analysis_summary.json
 api_stability_summary.json
 stability_report_*.json
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+ENV/
+env.bak/
+venv.bak/
+pyvenv.cfg
+Scripts/
+Lib/
+Include/
+share/
+bin/activate*
+activate*
+deactivate*
+
+# Package management
+site-packages/
+dist/
+build/
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+Pipfile.lock
+
+# Personal files
+ApiLens-LOOM_SCRIPT.md
+LOOM_DEMO_TEST_PLAN.md

@@ -2,6 +2,7 @@
 
 import yargs from 'yargs';
 import { hideBin } from 'yargs/helpers';
+import fs from 'fs';
 import SnapshotManager from './snapshot-manager.js';
 import ComparisonEngine from './comparison-engine.js';
 import MultiSiteRunner from './multi-site-runner.js';
@@ -120,6 +121,79 @@ yargs(hideBin(process.argv))
         } catch (error) {
             console.error('❌ Error:', error.message);
             process.exit(1);
+        }
+    })
+    .command('add-endpoint <site> <path>', 'Add endpoint to site config', {
+        method: {
+            describe: 'HTTP method',
+            default: 'GET',
+            choices: ['GET', 'POST', 'PUT', 'DELETE']
+        },
+        timeout: {
+            describe: 'Request timeout in ms',
+            default: 3000,
+            type: 'number'
+        }
+    }, (argv) => {
+        try {
+            const configPath = `./configs/${argv.site}.json`;
+            if (!fs.existsSync(configPath)) {
+                console.error(`❌ Config file not found: ${configPath}`);
+                return;
+            }
+            
+            const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+            const newEndpoint = {
+                path: argv.path,
+                method: argv.method,
+                timeout: argv.timeout,
+                retries: 1
+            };
+            
+            // Check if endpoint already exists
+            const exists = config.endpoints.some(ep => ep.path === argv.path && ep.method === argv.method);
+            if (exists) {
+                console.log(`⚠️ Endpoint already exists: ${argv.method} ${argv.path}`);
+                return;
+            }
+            
+            config.endpoints.push(newEndpoint);
+            fs.writeFileSync(configPath, JSON.stringify(config, null, 2));
+            console.log(`✅ Added endpoint: ${argv.method} ${argv.path} to ${argv.site}`);
+        } catch (error) {
+            console.error('❌ Error:', error.message);
+        }
+    })
+    .command('create-site <name> <url>', 'Create new site config from template', {
+        template: {
+            describe: 'Template type',
+            default: 'webapp',
+            choices: ['webapp', 'api']
+        }
+    }, (argv) => {
+        try {
+            const configPath = `./configs/${argv.name}.json`;
+            if (fs.existsSync(configPath)) {
+                console.error(`❌ Site already exists: ${argv.name}`);
+                return;
+            }
+            
+            const templatePath = `./templates/${argv.template}.json`;
+            if (!fs.existsSync(templatePath)) {
+                console.error(`❌ Template not found: ${argv.template}`);
+                return;
+            }
+            
+            let template = fs.readFileSync(templatePath, 'utf8');
+            template = template.replace('SITE_NAME', argv.name);
+            template = template.replace('BASE_URL', argv.url);
+            
+            fs.writeFileSync(configPath, template);
+            console.log(`✅ Created site config: ${argv.name}`);
+            console.log(`📁 Config file: ${configPath}`);
+            console.log(`🚀 Test with: apilens test --site ${argv.name}`);
+        } catch (error) {
+            console.error('❌ Error:', error.message);
         }
     })
     .demandCommand(1, 'You need at least one command')
