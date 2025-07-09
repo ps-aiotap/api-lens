@@ -1,7 +1,7 @@
 # HELP python_gc_objects_collected_total Objects collected during gc
 # TYPE python_gc_objects_collected_total counter
-python_gc_objects_collected_total{generation="0"} 216.0
-python_gc_objects_collected_total{generation="1"} 113.0
+python_gc_objects_collected_total{generation="0"} 628.0
+python_gc_objects_collected_total{generation="1"} 11.0
 python_gc_objects_collected_total{generation="2"} 0.0
 # HELP python_gc_objects_uncollectable_total Uncollectable objects found during GC
 # TYPE python_gc_objects_uncollectable_total counter
@@ -10,12 +10,12 @@ python_gc_objects_uncollectable_total{generation="1"} 0.0
 python_gc_objects_uncollectable_total{generation="2"} 0.0
 # HELP python_gc_collections_total Number of times this generation was collected
 # TYPE python_gc_collections_total counter
-python_gc_collections_total{generation="0"} 32.0
-python_gc_collections_total{generation="1"} 2.0
+python_gc_collections_total{generation="0"} 61.0
+python_gc_collections_total{generation="1"} 5.0
 python_gc_collections_total{generation="2"} 0.0
 # HELP python_info Python platform information
 # TYPE python_info gauge
-python_info{implementation="CPython",major="3",minor="12",patchlevel="0",version="3.12.0"} 1.0
+python_info{implementation="CPython",major="3",minor="11",patchlevel="0",version="3.11.0"} 1.0
 # HELP apilens_calls_total Total API calls
 # TYPE apilens_calls_total gauge
 apilens_calls_total{endpoint="/",site="healthmug"} 1.0

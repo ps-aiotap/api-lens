@@ -10,6 +10,16 @@ const pool = new Pool({
     port: process.env.DB_PORT || 5432
 });
 
+// Initialize database on startup
+async function initDatabase() {
+    try {
+        await pool.query('SELECT 1');
+    } catch (error) {
+        console.log('Database connection failed, will be initialized by Python DatabaseManager');
+    }
+}
+initDatabase();
+
 const JWT_SECRET = process.env.JWT_SECRET || 'your-secret-key';
 
 export class AuthManager {

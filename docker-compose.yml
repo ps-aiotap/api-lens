@@ -1,17 +1,17 @@
-version: '3.8'
+# version: '3.8'
 
 services:
-  postgres:
-    image: postgres:13
-    environment:
-      POSTGRES_DB: apilens
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: password
-    ports:
-      - "5432:5432"
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-      - ./database/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+  # postgres:
+  #   image: postgres:13
+  #   environment:
+  #     POSTGRES_DB: apilens
+  #     POSTGRES_USER: postgres
+  #     POSTGRES_PASSWORD: password
+  #   ports:
+  #     - "5432:5432"
+  #   volumes:
+  #     - postgres_data:/var/lib/postgresql/data
+  #     - ./database/schema.sql:/docker-entrypoint-initdb.d/schema.sql
 
   prometheus:
     image: prom/prometheus:latest
@@ -38,24 +38,24 @@ services:
     depends_on:
       - prometheus
 
-  api-lens:
-    build: .
-    ports:
-      - "3001:3001"
-    environment:
-      - DB_HOST=postgres
-      - DB_NAME=apilens
-      - DB_USER=postgres
-      - DB_PASSWORD=password
-      - DB_PORT=5432
-      - JWT_SECRET=your-secret-key
-    depends_on:
-      - postgres
-    volumes:
-      - ./logs:/app/logs
-      - ./configs:/app/configs
+  # api-lens:
+  #   build: .
+  #   ports:
+  #     - "3001:3001"
+  #   environment:
+  #     - DB_HOST=postgres
+  #     - DB_NAME=apilens
+  #     - DB_USER=postgres
+  #     - DB_PASSWORD=password
+  #     - DB_PORT=5432
+  #     - JWT_SECRET=your-secret-key
+  #   depends_on:
+  #     - postgres
+  #   volumes:
+  #     - ./logs:/app/logs
+  #     - ./configs:/app/configs
 
 volumes:
-  postgres_data:
+  # postgres_data:
   prometheus_data:
   grafana_data:

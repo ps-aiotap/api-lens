@@ -2,22 +2,29 @@
 
 import smtplib
 import json
+import os
 import requests
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from database_manager import DatabaseManager
 from typing import Dict, List
+from dotenv import load_dotenv
+
+# Load environment variables from .env file in the project root
+dotenv_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), '.env')
+load_dotenv(dotenv_path)
 
 class AlertManager:
     def __init__(self):
         self.db = DatabaseManager()
         self.smtp_config = {
-            'host': 'smtp.gmail.com',
-            'port': 587,
-            'username': 'your-email@gmail.com',
-            'password': 'your-app-password'
+            'host': os.getenv('SMTP_HOST', 'smtp.gmail.com'),
+            'port': int(os.getenv('SMTP_PORT', '587')),
+            'username': os.getenv('SMTP_USER', ''),
+            'password': os.getenv('SMTP_PASSWORD', '')
         }
-        self.slack_webhook = 'https://hooks.slack.com/services/YOUR/SLACK/WEBHOOK'
+        self.slack_webhook = os.getenv('SLACK_WEBHOOK_URL', '')
+        self.alert_email = os.getenv('ALERT_EMAIL', 'admin@company.com')
         
     def check_health_alerts(self, site: str, health_threshold: int = 70):
         """Check for health score alerts and send notifications"""
@@ -37,15 +44,18 @@ class AlertManager:
             )
             
             # Send notifications
-            self.send_email_alert(alert['name'], message)
-            self.send_slack_alert(alert['name'], message)
+            if self.smtp_config['username'] and self.smtp_config['password']:
+                self.send_email_alert(alert['name'], message)
+            
+            if self.slack_webhook:
+                self.send_slack_alert(alert['name'], message)
     
     def send_email_alert(self, site: str, message: str):
         """Send email alert"""
         try:
             msg = MIMEMultipart()
             msg['From'] = self.smtp_config['username']
-            msg['To'] = 'admin@company.com'
+            msg['To'] = self.alert_email
             msg['Subject'] = f'API Lens Alert - {site}'
             
             msg.attach(MIMEText(message, 'plain'))
@@ -64,7 +74,7 @@ class AlertManager:
         """Send Slack alert"""
         try:
             payload = {
-                'text': f'🚨 API Lens Alert',
+                'text': f'API Lens Alert',
                 'attachments': [{
                     'color': 'danger',
                     'fields': [{

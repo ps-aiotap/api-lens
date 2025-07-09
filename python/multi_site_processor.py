@@ -88,8 +88,17 @@ class MultiSiteProcessor:
         
         # Save to database
         try:
-            self.db.save_test_run(site, data)
-            print(f"Saved test run to database for {site}")
+            # Debug data structure
+            print(f"Data type: {type(data)}")
+            if isinstance(data, dict):
+                print(f"Data keys: {list(data.keys())}")
+            
+            # Make sure data has the required structure
+            if isinstance(data, dict) and 'runId' in data and 'timestamp' in data and 'results' in data:
+                self.db.save_test_run(site, data)
+                print(f"Saved test run to database for {site}")
+            else:
+                print(f"Cannot save to database: Invalid data format")
         except Exception as e:
             print(f"Failed to save to database: {e}")
         

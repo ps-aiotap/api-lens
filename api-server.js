@@ -11,6 +11,37 @@ app.use(express.json());
 
 const multiSiteRunner = new MultiSiteRunner();
 
+// Root route
+app.get('/', (req, res) => {
+    res.json({
+        name: 'API Lens Server',
+        version: '2.0.0',
+        status: 'running',
+        endpoints: {
+            auth: '/api/auth/login',
+            sites: '/api/sites',
+            test: '/api/test/:site',
+            dashboard: '/api/dashboard/:site'
+        },
+        docs: 'See README.md for usage instructions'
+    });
+});
+
+// API info
+app.get('/api', (req, res) => {
+    const sites = multiSiteRunner.listAvailableSites();
+    res.json({
+        message: 'API Lens REST API',
+        availableSites: sites,
+        endpoints: {
+            'POST /api/auth/login': 'Authenticate user',
+            'GET /api/sites': 'List accessible sites (requires auth)',
+            'POST /api/test/:site': 'Run tests for site (requires auth)',
+            'GET /api/dashboard/:site': 'Get dashboard data (requires auth)'
+        }
+    });
+});
+
 // Authentication routes
 app.post('/api/auth/login', async (req, res) => {
     try {

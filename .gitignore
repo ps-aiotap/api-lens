@@ -7,6 +7,7 @@ snapshots/
 patterns/
 *.html
 *.json
+*.prom
 !package.json
 !*dashboard*.json
 !docker-compose.yml
@@ -40,7 +41,8 @@ share/
 bin/activate*
 activate*
 deactivate*
-
+*.prom
+logs/
 # Package management
 site-packages/
 dist/
@@ -51,5 +53,4 @@ pip-delete-this-directory.txt
 Pipfile.lock
 
 # Personal files
-ApiLens-LOOM_SCRIPT.md
-LOOM_DEMO_TEST_PLAN.md
+api-lens_internal/

@@ -1,4 +1,4 @@
-prometheus_client==0.17.1
+prometheus_client==0.22.1
 psycopg2-binary==2.9.7
 requests==2.31.0
-smtplib2==0.2.1
+python-dotenv==1.1.1

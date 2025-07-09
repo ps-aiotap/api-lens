@@ -3,11 +3,18 @@
 import psycopg2
 import json
 import os
+import sys
 from datetime import datetime
 from typing import Dict, List, Any
+from dotenv import load_dotenv
+
+# Load environment variables from .env file in the project root
+dotenv_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), '.env')
+load_dotenv(dotenv_path)
 
 class DatabaseManager:
     def __init__(self, db_config=None):
+        # Use provided config or load from environment variables
         self.db_config = db_config or {
             'host': os.getenv('DB_HOST', 'localhost'),
             'database': os.getenv('DB_NAME', 'apilens'),
@@ -15,6 +22,105 @@ class DatabaseManager:
             'password': os.getenv('DB_PASSWORD', 'password'),
             'port': os.getenv('DB_PORT', '5432')
         }
+        self.init_database()
+    
+    def init_database(self):
+        """Initialize database and tables if they don't exist"""
+        try:
+            # First try to connect to the database
+            conn = psycopg2.connect(**self.db_config)
+            conn.close()
+        except psycopg2.OperationalError:
+            # Database doesn't exist, create it
+            temp_config = self.db_config.copy()
+            temp_config['database'] = 'postgres'  # Connect to default database
+            
+            conn = psycopg2.connect(**temp_config)
+            conn.autocommit = True
+            with conn.cursor() as cur:
+                cur.execute(f"CREATE DATABASE {self.db_config['database']}")
+            conn.close()
+        
+        # Now create tables if they don't exist
+        self.create_tables()
+    
+    def create_tables(self):
+        """Create database tables if they don't exist"""
+        schema_sql = """
+        CREATE TABLE IF NOT EXISTS sites (
+            id SERIAL PRIMARY KEY,
+            name VARCHAR(100) UNIQUE NOT NULL,
+            base_url VARCHAR(500) NOT NULL,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        );
+        
+        CREATE TABLE IF NOT EXISTS test_runs (
+            id SERIAL PRIMARY KEY,
+            site_id INTEGER REFERENCES sites(id),
+            run_id VARCHAR(100) NOT NULL,
+            timestamp TIMESTAMP NOT NULL,
+            total_endpoints INTEGER,
+            total_failures INTEGER,
+            total_empty_responses INTEGER,
+            avg_health_score DECIMAL(5,2),
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        );
+        
+        CREATE TABLE IF NOT EXISTS endpoint_results (
+            id SERIAL PRIMARY KEY,
+            test_run_id INTEGER REFERENCES test_runs(id),
+            endpoint VARCHAR(500) NOT NULL,
+            method VARCHAR(10) NOT NULL,
+            status_code INTEGER,
+            latency INTEGER,
+            response_size INTEGER,
+            is_empty BOOLEAN,
+            success BOOLEAN,
+            health_score INTEGER,
+            error_message TEXT,
+            timestamp TIMESTAMP NOT NULL
+        );
+        
+        CREATE TABLE IF NOT EXISTS alerts (
+            id SERIAL PRIMARY KEY,
+            site_id INTEGER REFERENCES sites(id),
+            endpoint VARCHAR(500),
+            alert_type VARCHAR(50) NOT NULL,
+            threshold_value DECIMAL(10,2),
+            current_value DECIMAL(10,2),
+            message TEXT,
+            status VARCHAR(20) DEFAULT 'active',
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            resolved_at TIMESTAMP
+        );
+        
+        CREATE TABLE IF NOT EXISTS users (
+            id SERIAL PRIMARY KEY,
+            username VARCHAR(100) UNIQUE NOT NULL,
+            email VARCHAR(255) UNIQUE NOT NULL,
+            password_hash VARCHAR(255) NOT NULL,
+            role VARCHAR(50) DEFAULT 'viewer',
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        );
+        
+        CREATE TABLE IF NOT EXISTS user_site_access (
+            id SERIAL PRIMARY KEY,
+            user_id INTEGER REFERENCES users(id),
+            site_id INTEGER REFERENCES sites(id),
+            access_level VARCHAR(50) DEFAULT 'read',
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            UNIQUE(user_id, site_id)
+        );
+        
+        CREATE INDEX IF NOT EXISTS idx_test_runs_site_timestamp ON test_runs(site_id, timestamp);
+        CREATE INDEX IF NOT EXISTS idx_endpoint_results_test_run ON endpoint_results(test_run_id);
+        CREATE INDEX IF NOT EXISTS idx_alerts_site_status ON alerts(site_id, status);
+        """
+        
+        with self.get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(schema_sql)
+            conn.commit()
     
     def get_connection(self):
         return psycopg2.connect(**self.db_config)
@@ -24,8 +130,14 @@ class DatabaseManager:
         with self.get_connection() as conn:
             with conn.cursor() as cur:
                 # Get or create site
+                base_url = ''
+                if 'config' in run_data and isinstance(run_data['config'], dict):
+                    base_url = run_data['config'].get('baseUrl', '')
+                elif 'config' in run_data and isinstance(run_data['config'], str):
+                    base_url = run_data['config']
+                    
                 cur.execute("INSERT INTO sites (name, base_url) VALUES (%s, %s) ON CONFLICT (name) DO NOTHING", 
-                           (site, run_data.get('config', {}).get('baseUrl', '')))
+                           (site, base_url))
                 
                 cur.execute("SELECT id FROM sites WHERE name = %s", (site,))
                 site_id = cur.fetchone()[0]

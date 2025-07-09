@@ -29,33 +29,33 @@ class MultiSiteMetricsServer:
                     # Extract site from path
                     site = os.path.basename(os.path.dirname(log_file))
                     
-                    print(f"🔄 Processing new log: {site} - {os.path.basename(log_file)}")
+                    print(f"Processing new log: {site} - {os.path.basename(log_file)}")
                     self.processor.process_log_file(site, log_file)
                     self.processed_files.add(log_file)
                     new_files += 1
                     
                 except Exception as e:
-                    print(f"⚠️ Error processing {log_file}: {e}")
+                    print(f"Error processing {log_file}: {e}")
         
         if new_files > 0:
-            print(f"✅ Processed {new_files} new log files")
+            print(f"Processed {new_files} new log files")
     
     def start_server(self):
         """Start Prometheus metrics server"""
         start_http_server(self.port)
-        print(f"📈 Multi-site metrics server started on http://localhost:{self.port}/metrics")
+        print(f"Multi-site metrics server started on http://localhost:{self.port}/metrics")
         
         # Initial scan
         self.scan_and_process_logs()
         
-        print("🔄 Monitoring for new log files... Press Ctrl+C to stop")
+        print("Monitoring for new log files... Press Ctrl+C to stop")
         
         try:
             while True:
                 time.sleep(30)  # Check every 30 seconds
                 self.scan_and_process_logs()
         except KeyboardInterrupt:
-            print("\n🛑 Multi-site metrics server stopped")
+            print("\nMulti-site metrics server stopped")
 
 if __name__ == "__main__":
     server = MultiSiteMetricsServer()
