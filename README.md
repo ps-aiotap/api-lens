@@ -24,6 +24,10 @@
 - JSON/CSV/HTML reports
 - Comparison insights
 
+## Demo
+▶️ [Watch the demo](https://www.loom.com/share/96b5e91591dd456eb3df8ae0302522ba)  
+This short video walks through the main features
+
 ## 🏁 Quick Start
 
 1. **Install dependencies:**
