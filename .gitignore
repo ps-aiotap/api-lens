@@ -1,17 +1,28 @@
 node_modules/
-logs/
 .env
 *.log
+
+# Keep logs directory but ignore its contents
+# This allows Prometheus to read metrics while not tracking them in git
+logs/*
+!logs/.gitkeep
+
 reports/
 snapshots/
 patterns/
+
+# Generated files
 *.html
 *.json
 *.prom
+
+# Exceptions
 !package.json
 !*dashboard*.json
 !docker-compose.yml
 !example-openapi.json
+
+# OS files
 .DS_Store
 Thumbs.db
 
@@ -41,8 +52,7 @@ share/
 bin/activate*
 activate*
 deactivate*
-*.prom
-logs/
+
 # Package management
 site-packages/
 dist/
