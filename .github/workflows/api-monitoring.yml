@@ -208,14 +208,11 @@ jobs:
         echo "print(f'Database connection successful')" >> check_alerts.py
         python check_alerts.py
     
-    - name: Upload Test Results
-      uses: actions/upload-artifact@v4
+    - name: Save Test Results Locally
       if: always()
-      with:
-        name: test-results-${{ matrix.site }}
-        path: |
-          logs/${{ matrix.site }}/
-          *.html
+      run: |
+        echo "Test results for ${{ matrix.site }} saved to logs directory"
+        ls -la logs/${{ matrix.site }}/
     
     - name: Notify on Failure
       if: failure()
@@ -239,8 +236,7 @@ jobs:
         mkdir -p dashboard-output
         echo "Dashboard deployed at $(date)" > dashboard-output/deployment.log
     
-    - name: Upload Dashboard Artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: dashboard-artifacts
-        path: dashboard-output/
+    - name: List Dashboard Artifacts
+      run: |
+        echo "Dashboard artifacts:"
+        ls -la dashboard-output/
