@@ -34,18 +34,19 @@ jobs:
     strategy:
       matrix:
         site: [testsite, healthmug, example]
+      fail-fast: false  # Continue with other sites if one fails
     
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     
     - name: Setup Node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: ${{ env.NODE_VERSION }}
         cache: 'npm'
     
     - name: Setup Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: ${{ env.PYTHON_VERSION }}
     
@@ -208,7 +209,7 @@ jobs:
         python check_alerts.py
     
     - name: Upload Test Results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       if: always()
       with:
         name: test-results-${{ matrix.site }}
@@ -229,7 +230,7 @@ jobs:
     if: github.ref == 'refs/heads/main' && success()
     
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     
     - name: Deploy to Production
       run: |
@@ -239,7 +240,7 @@ jobs:
         echo "Dashboard deployed at $(date)" > dashboard-output/deployment.log
     
     - name: Upload Dashboard Artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: dashboard-artifacts
         path: dashboard-output/
