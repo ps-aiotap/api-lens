@@ -6,6 +6,7 @@
 ## 🚀 Quick Start
 
 ### Installation
+
 ```bash
 # Clone and install
 git clone <repository-url>
@@ -22,6 +23,7 @@ cp .env.example .env
 ```
 
 ### Basic Usage
+
 ```bash
 # Create a new site to monitor
 apilens create-site myapp http://localhost:3000 --template api
@@ -46,22 +48,26 @@ apilens summary
 ## 🔍 Key Features
 
 ### Real-time Endpoint Monitoring
+
 - Health scoring algorithm (0-100) based on success rate, latency, and response quality
 - Multi-site monitoring from single dashboard
 - Automatic endpoint pattern grouping (`/users/123` → `/users/*`)
 
 ### Endpoint Learning & Discovery
+
 - Learns successful endpoints from historical test runs
 - Suggests new endpoints based on patterns
 - Safe template-based configuration (no assumptions about API structure)
 
 ### CI/CD Integration
+
 - GitHub Actions workflow included
 - Automated testing every 2 hours
 - Matrix testing across multiple sites
 - Slack notifications on failures
 
 ### Alerting System
+
 - Health score alerts (configurable thresholds)
 - Email and Slack notifications
 - Database alert history tracking
@@ -70,6 +76,7 @@ apilens summary
 ## 📋 Adding New APIs
 
 ### Method 1: CLI Templates
+
 ```bash
 # For web applications
 apilens create-site webapp-name http://example.com --template webapp
@@ -79,7 +86,9 @@ apilens create-site api-name http://api.example.com --template api
 ```
 
 ### Method 2: Manual Configuration
+
 Create `configs/sitename.json`:
+
 ```json
 {
   "site": "myapi",
@@ -103,15 +112,18 @@ Create `configs/sitename.json`:
 ## 🚨 How Alerts Work
 
 ### Health Score Calculation
+
 ```
 Health Score = 100
 - (Failure Rate × 60)     // Failed requests penalty
-- (Empty Response Rate × 30)  // Empty responses penalty  
+- (Empty Response Rate × 30)  // Empty responses penalty
 - (High Latency × 10)     // Latency penalty (max 10 points)
 ```
 
 ### Alert Configuration
+
 Set environment variables in `.env`:
+
 ```bash
 # Email alerts
 SMTP_HOST=smtp.gmail.com
@@ -124,6 +136,7 @@ SLACK_WEBHOOK_URL=https://hooks.slack.com/services/YOUR/WEBHOOK
 ```
 
 ### Alert Triggers
+
 - Health score drops below 70 (configurable)
 - Consecutive failures detected
 - Response time exceeds thresholds
@@ -151,6 +164,7 @@ SLACK_WEBHOOK_URL=https://hooks.slack.com/services/YOUR/WEBHOOK
 ```
 
 ### Tech Stack
+
 - **Node.js**: CLI tool, API testing, metrics server
 - **Python**: Data processing, alert management, analytics
 - **PostgreSQL**: Request metadata, historical data, user management
@@ -161,7 +175,9 @@ SLACK_WEBHOOK_URL=https://hooks.slack.com/services/YOUR/WEBHOOK
 ## 🔄 CI/CD Integration
 
 ### GitHub Actions
+
 The included workflow (`.github/workflows/api-monitoring.yml`) provides:
+
 - Scheduled API health checks every 2 hours
 - Matrix testing across multiple sites
 - Automatic database storage of results
@@ -169,6 +185,7 @@ The included workflow (`.github/workflows/api-monitoring.yml`) provides:
 - Test result artifacts
 
 ### Custom Integration
+
 ```bash
 # Add to your CI pipeline
 - name: API Health Check
@@ -178,6 +195,7 @@ The included workflow (`.github/workflows/api-monitoring.yml`) provides:
 ```
 
 ### Environment Variables for CI
+
 ```yaml
 env:
   DB_HOST: ${{ secrets.DB_HOST }}
@@ -206,6 +224,7 @@ api-lens/
 ## 🔧 Configuration
 
 ### Environment Variables (.env)
+
 ```bash
 # Database
 DB_HOST=localhost
@@ -228,18 +247,21 @@ SLACK_WEBHOOK_URL=https://hooks.slack.com/services/YOUR/WEBHOOK
 ## 🎯 Use Cases
 
 ### For Agencies
+
 - Monitor all client APIs from one dashboard
 - Professional client reports with health scores
 - Early detection of client API issues
 - White-label dashboard options
 
 ### For Enterprises
+
 - Multi-environment API monitoring (dev/staging/prod)
 - Historical performance trending
 - Integration with existing monitoring stack
 - Custom alerting rules and thresholds
 
 ### For Startups
+
 - Cost-effective API monitoring solution
 - Quick setup with Docker deployment
 - CI/CD integration for automated testing
@@ -248,7 +270,7 @@ SLACK_WEBHOOK_URL=https://hooks.slack.com/services/YOUR/WEBHOOK
 ## 📈 Health Score Examples
 
 - **90-100**: Excellent - APIs performing optimally
-- **70-89**: Good - Minor issues, monitor closely  
+- **70-89**: Good - Minor issues, monitor closely
 - **50-69**: Warning - Performance degradation detected
 - **0-49**: Critical - Immediate attention required
 
