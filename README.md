@@ -1,194 +1,269 @@
-# ApiLens - Advanced API Monitoring & Analysis
+# ApiLens - API Monitoring & Discovery Tool
 
-## 🚀 Features
+**ApiLens monitors REST APIs in real-time, learns endpoint patterns from request logs, and provides health insights through CLI and dashboards.**  
+**Perfect for agencies managing multiple clients, enterprises tracking API performance, and teams integrating API health checks into CI/CD pipelines.**
 
-### 🔍 **API Monitoring**
-- Automated login and site navigation
-- Real-time API call interception
-- HTTP failure and empty response detection
-- Latency and performance tracking
+## 🚀 Quick Start
 
-### 📊 **Endpoint Grouping**
-- **Auto-pattern detection**: `/users/123` → `/users/*`
-- **OpenAPI integration**: Import endpoint patterns from Swagger specs
-- **Custom grouping rules**: Define your own patterns
-- **Wildcard clustering**: Group similar URLs automatically
-
-### 📈 **Prometheus & Grafana**
-- **Labeled metrics**: `endpoint_group="api/products/*"`
-- **Group-based dashboards**: Latency, failures, and trends per group
-- **Visual analytics**: Pie charts, time series, summary tables
-
-### 📸 **Historical Analysis**
-- Snapshot generation with grouping
-- JSON/CSV/HTML reports
-- Comparison insights
-
-## 🏁 Quick Start
-
-1. **Install dependencies:**
+### Installation
 ```bash
+# Clone and install
+git clone <repository-url>
+cd api-lens
 npm install
-```
+cd python && pip install -r requirements.txt
 
-2. **Start monitoring stack:**
-```bash
+# Start monitoring stack
 docker-compose up -d
+
+# Initialize database
+cp .env.example .env
+# Edit .env with your database credentials
 ```
 
-3. **Run grouped daemon:**
+### Basic Usage
 ```bash
-node healthmug-daemon-grouped.js --interval 5
+# Create a new site to monitor
+apilens create-site myapp http://localhost:3000 --template api
+
+# Add specific endpoints
+apilens add-endpoint myapp /api/users --method GET
+apilens add-endpoint myapp /api/products --method POST
+
+# Run health checks
+apilens test --site myapp
+
+# View results
+apilens summary
 ```
 
-## 📊 Usage Examples
+## 📊 Dashboard Access
 
-### Grouped Daemon
+- **Multi-Site Dashboard**: http://localhost:3000 (admin/admin)
+- **Prometheus Metrics**: http://localhost:9090
+- **API Server**: http://localhost:3001
+
+## 🔍 Key Features
+
+### Real-time Endpoint Monitoring
+- Health scoring algorithm (0-100) based on success rate, latency, and response quality
+- Multi-site monitoring from single dashboard
+- Automatic endpoint pattern grouping (`/users/123` → `/users/*`)
+
+### Endpoint Learning & Discovery
+- Learns successful endpoints from historical test runs
+- Suggests new endpoints based on patterns
+- Safe template-based configuration (no assumptions about API structure)
+
+### CI/CD Integration
+- GitHub Actions workflow included
+- Automated testing every 2 hours
+- Matrix testing across multiple sites
+- Slack notifications on failures
+
+### Alerting System
+- Health score alerts (configurable thresholds)
+- Email and Slack notifications
+- Database alert history tracking
+- Prometheus metrics for custom alerting rules
+
+## 📋 Adding New APIs
+
+### Method 1: CLI Templates
 ```bash
-# Basic grouped analysis
-node healthmug-daemon-grouped.js --interval 5
+# For web applications
+apilens create-site webapp-name http://example.com --template webapp
 
-# With OpenAPI spec
-node healthmug-daemon-grouped.js --openapi example-openapi.json
-
-# Generate reports
-node healthmug-daemon-grouped.js --json-report report.json --html-report report.html
-
-# Export patterns
-node healthmug-daemon-grouped.js --export-patterns patterns.json
+# For API services
+apilens create-site api-name http://api.example.com --template api
 ```
 
-### Example CLI Output
-```
-📊 API LENS - GROUPED ANALYSIS REPORT
-============================================================
-
-📈 OVERALL SUMMARY:
-   Total APIs: 1247
-   Endpoint Groups: 8
-   Total Failures: 12
-   Empty Responses: 45
-
-🔍 ENDPOINT GROUP ANALYSIS:
-
-✅ /api/products/*
-   📦 156 passed, 2 failed (158 total)
-   ⏱️  Avg latency: 245ms
-
-❌ /api/cart/*
-   📦 89 passed, 8 failed (97 total)
-   ⏱️  Avg latency: 1250ms ⚠️
-   📭 Empty responses: 12
-
-✅ /api/search*
-   📦 234 passed, 0 failed (234 total)
-   ⏱️  Avg latency: 180ms
+### Method 2: Manual Configuration
+Create `configs/sitename.json`:
+```json
+{
+  "site": "myapi",
+  "baseUrl": "https://api.example.com",
+  "endpoints": [
+    {
+      "path": "/health",
+      "method": "GET",
+      "timeout": 3000,
+      "retries": 1
+    }
+  ],
+  "settings": {
+    "defaultTimeout": 5000,
+    "defaultRetries": 2,
+    "userAgent": "ApiLens/2.0"
+  }
+}
 ```
 
-## 📊 Prometheus Metrics
+## 🚨 How Alerts Work
 
-### Labeled Metrics
-- `apilens_api_latency_seconds{endpoint_group="api/products/*"}`
-- `apilens_api_failures_total{endpoint_group="api/cart/*"}`
-- `apilens_api_empty_response_total{endpoint_group="api/search/*"}`
-- `apilens_api_requests_total{endpoint_group="api/user/*"}`
+### Health Score Calculation
+```
+Health Score = 100
+- (Failure Rate × 60)     // Failed requests penalty
+- (Empty Response Rate × 30)  // Empty responses penalty  
+- (High Latency × 10)     // Latency penalty (max 10 points)
+```
 
-## 🎯 Access Points
+### Alert Configuration
+Set environment variables in `.env`:
+```bash
+# Email alerts
+SMTP_HOST=smtp.gmail.com
+SMTP_USER=your-email@gmail.com
+SMTP_PASSWORD=your-app-password
+ALERT_EMAIL=admin@company.com
 
-- **Grouped Dashboard**: http://localhost:3001 (admin/admin)
-- **Prometheus**: http://localhost:9090
-- **Metrics Endpoint**: http://localhost:3000/metrics
+# Slack alerts
+SLACK_WEBHOOK_URL=https://hooks.slack.com/services/YOUR/WEBHOOK
+```
 
-## 🏗️ File Structure
+### Alert Triggers
+- Health score drops below 70 (configurable)
+- Consecutive failures detected
+- Response time exceeds thresholds
+- Empty responses from critical endpoints
+
+## 🏗️ Architecture
+
+```
+┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
+│   Node.js CLI   │───▶│   PostgreSQL     │◀───│  Python Agent   │
+│   (Testing)     │    │   (Metadata)     │    │  (Processing)   │
+└─────────────────┘    └──────────────────┘    └─────────────────┘
+         │                        │                       │
+         ▼                        ▼                       ▼
+┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
+│   Prometheus    │◀───│   Metrics Server │◀───│   Log Files     │
+│   (Metrics)     │    │   (Port 9879)    │    │   (JSON)        │
+└─────────────────┘    └──────────────────┘    └─────────────────┘
+         │
+         ▼
+┌─────────────────┐    ┌──────────────────┐
+│    Grafana      │    │   Alert Manager  │
+│   (Dashboard)   │    │  (Email/Slack)   │
+└─────────────────┘    └──────────────────┘
+```
+
+### Tech Stack
+- **Node.js**: CLI tool, API testing, metrics server
+- **Python**: Data processing, alert management, analytics
+- **PostgreSQL**: Request metadata, historical data, user management
+- **Prometheus**: Real-time metrics collection and storage
+- **Grafana**: Professional dashboards and visualization
+- **Docker**: Containerized monitoring stack
+
+## 🔄 CI/CD Integration
+
+### GitHub Actions
+The included workflow (`.github/workflows/api-monitoring.yml`) provides:
+- Scheduled API health checks every 2 hours
+- Matrix testing across multiple sites
+- Automatic database storage of results
+- Slack notifications on failures
+- Test result artifacts
+
+### Custom Integration
+```bash
+# Add to your CI pipeline
+- name: API Health Check
+  run: |
+    node cli-tool.js test --site production
+    # Exit with error code if health score < 80
+```
+
+### Environment Variables for CI
+```yaml
+env:
+  DB_HOST: ${{ secrets.DB_HOST }}
+  DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+  SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
+```
+
+## 📁 Project Structure
+
 ```
 api-lens/
-├── endpoint-grouper.js           # Core grouping logic
-├── prometheus-exporter.js        # Labeled metrics export
-├── report-generator.js           # CLI/JSON/HTML reports
-├── healthmug-daemon-grouped.js   # Main grouped daemon
-├── grafana/
-│   └── provisioning/dashboards/
-│       └── grouped-dashboard.json # Endpoint group dashboard
-├── example-openapi.json          # Sample OpenAPI spec
-└── README.md                     # This file
+├── cli-tool.js              # Main CLI interface
+├── multi-site-runner.js     # Test execution engine
+├── simple-metrics-server.js # Prometheus metrics endpoint
+├── configs/                 # Site configuration files
+├── templates/               # Configuration templates
+├── python/                  # Analytics and processing
+│   ├── database_manager.py  # PostgreSQL integration
+│   ├── alert_manager.py     # Email/Slack alerts
+│   └── multi_site_processor.py # Data processing
+├── grafana/                 # Dashboard configurations
+├── logs/                    # Test results (auto-generated)
+└── .github/workflows/       # CI/CD automation
 ```
 
 ## 🔧 Configuration
 
-### Custom Groups
-```javascript
-const grouper = new EndpointGrouper({
-  customGroups: {
-    'api/products/*': '/api/products/',
-    'api/cart/*': '/api/cart/',
-    'graphql/*': '/graphql'
-  }
-});
-```
-
-### OpenAPI Integration
+### Environment Variables (.env)
 ```bash
-# Load patterns from OpenAPI spec
-node healthmug-daemon-grouped.js --openapi swagger.json
+# Database
+DB_HOST=localhost
+DB_NAME=apilens
+DB_USER=postgres
+DB_PASSWORD=your_password
+DB_PORT=5432
+
+# Authentication
+JWT_SECRET=your_secret_key
+
+# Alerts
+SMTP_HOST=smtp.gmail.com
+SMTP_USER=your-email@gmail.com
+SMTP_PASSWORD=your-app-password
+ALERT_EMAIL=admin@company.com
+SLACK_WEBHOOK_URL=https://hooks.slack.com/services/YOUR/WEBHOOK
 ```
 
-## 🐍 Python Analytics Integration
+## 🎯 Use Cases
 
-### Setup
-```bash
-# Install Python dependencies
-cd python
-pip install -r requirements.txt
-```
+### For Agencies
+- Monitor all client APIs from one dashboard
+- Professional client reports with health scores
+- Early detection of client API issues
+- White-label dashboard options
 
-### Usage
-```bash
-# Run comparison analysis
-python run_analysis.py analyze
+### For Enterprises
+- Multi-environment API monitoring (dev/staging/prod)
+- Historical performance trending
+- Integration with existing monitoring stack
+- Custom alerting rules and thresholds
 
-# Start Prometheus metrics server (port 9877)
-python run_analysis.py server
+### For Startups
+- Cost-effective API monitoring solution
+- Quick setup with Docker deployment
+- CI/CD integration for automated testing
+- Scalable architecture for growth
 
-# Generate sample data for testing
-cd python
-python sample_data.py
-```
+## 📈 Health Score Examples
 
-### Python Modules
-- **snapshot_loader.py**: Load and group API snapshots
-- **comparison_engine.py**: Generate insights between runs
-- **prometheus_server.py**: Expose metrics on port 9877
-- **analyzer.py**: Main orchestration module
+- **90-100**: Excellent - APIs performing optimally
+- **70-89**: Good - Minor issues, monitor closely  
+- **50-69**: Warning - Performance degradation detected
+- **0-49**: Critical - Immediate attention required
 
-### Example Output
-```
-🧠 API LENS PYTHON ANALYSIS
-============================================================
+## 🤝 Contributing
 
-📈 SUMMARY:
-   Current APIs: 7
-   Previous APIs: 6
-   Current Failures: 2
-   Previous Failures: 1
+1. Fork the repository
+2. Create feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit changes (`git commit -m 'Add amazing feature'`)
+4. Push to branch (`git push origin feature/amazing-feature`)
+5. Open Pull Request
 
-💡 INSIGHTS:
-   • 1 APIs failed today that passed yesterday
-   • Empty responses up 14.3% since last scan
-   • Latency ↑ 33% in /api/search*
+## 📄 License
 
-📊 GROUP ANALYSIS:
-   ❌ /api/products/*: 2 APIs, 1 failures (latency ↑17%)
-   ✅ /api/cart/*: 2 APIs, 0 failures
-   ✅ /api/search*: 1 APIs, 0 failures (latency ↑33%)
-   ✅ /api/user/*: 1 APIs, 0 failures
-   ❌ /api/orders/*: 1 APIs, 1 failures
-```
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🚀 Extensibility
+---
 
-- **GraphQL support**: Add custom grouping for GraphQL operations
-- **Config files**: Define grouping rules via JSON/YAML
-- **Custom metrics**: Extend Prometheus exporter
-- **Report formats**: Add XML, PDF, or other formats
-- **Python integration**: Analytics and comparison in Python
-- **Dual language**: Node.js for testing, Python for analytics
+**Ready to monitor your APIs like a pro?** Start with `apilens create-site` and see your API health in real-time!
